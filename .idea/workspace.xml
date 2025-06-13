@@ -5,20 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f26aaf3-b5d6-4c39-aa17-892a96f47b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter/counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Counter/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Message/Message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/counterReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/counterAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Counter/counter.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaleeshaMAdhushanka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaleeshaMAdhushanka/Rad-React-Funtional-Component-Counter-App.git&quot;,
+    &quot;accountId&quot;: &quot;4cdd760d-2b60-48d1-8fa2-e13a1807f79b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -35,7 +60,7 @@
     "ReactCreateComponentLastSelected": "functionDeclarationComponent",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,6 +68,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.npm start.executor": "Run",
     "ts.external.directory.path": "F:\\RAD\\react-8\\react-3\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,6 +81,11 @@
         <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\RAD\react-8\react-3\src\Component" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -89,6 +120,18 @@
       <updated>1746866299383</updated>
       <workItem from="1746866300598" duration="6336000" />
       <workItem from="1746935894545" duration="40000" />
+      <workItem from="1747585877369" duration="814000" />
+      <workItem from="1747586970329" duration="567000" />
+      <workItem from="1747633143762" duration="2578000" />
+      <workItem from="1748011427301" duration="1083000" />
+      <workItem from="1748013256852" duration="579000" />
+      <workItem from="1748017823391" duration="583000" />
+      <workItem from="1748056671516" duration="584000" />
+      <workItem from="1748198319116" duration="502000" />
+      <workItem from="1748242988887" duration="523000" />
+      <workItem from="1748512594339" duration="693000" />
+      <workItem from="1749185861432" duration="5000" />
+      <workItem from="1749277501227" duration="11762000" />
     </task>
     <servers />
   </component>
