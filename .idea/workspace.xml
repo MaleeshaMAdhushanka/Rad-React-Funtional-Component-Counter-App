@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f26aaf3-b5d6-4c39-aa17-892a96f47b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Counter/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Message/Message.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reducers/counterReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/counterAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Counter/counter.css" afterDir="false" />
-    </list>
+    <list default="true" id="9f26aaf3-b5d6-4c39-aa17-892a96f47b09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +49,7 @@
     "ReactCreateComponentLastSelected": "functionDeclarationComponent",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Week-6-Redux-Practical",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -132,6 +121,7 @@
       <workItem from="1748512594339" duration="693000" />
       <workItem from="1749185861432" duration="5000" />
       <workItem from="1749277501227" duration="11762000" />
+      <workItem from="1749789239724" duration="6050000" />
     </task>
     <servers />
   </component>

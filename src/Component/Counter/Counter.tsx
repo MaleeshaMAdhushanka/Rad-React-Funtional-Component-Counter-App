@@ -2,6 +2,9 @@
  import {useEffect, useReducer, useState} from "react";
  import {Message} from "../Message/Message";
  import {counterReducer} from "../../Reducers/counterReducer";
+ import {useDispatch, useSelector} from "react-redux";
+ import {CounterState} from "../../store/store";
+ import {decrement, increment} from "../../actions/counterAction";
 
  //
  //state object define
@@ -33,23 +36,30 @@ export function Counter() {
    //      setCount((pervCount) => pervCount + -1);
    //
    //  }
-    const [state, dispatch]  = useReducer(
-        counterReducer,  {
-            count: 0,
-            error: null
-        }
+   //  const [state, dispatch]  = useReducer(
+   //      counterReducer,  {
+   //          count: 0,
+   //          error: null
+   //      }
+   //
+   //  );
 
-    );
+
+   const  dispatch = useDispatch();
+
+   const count = useSelector((state : CounterState) => state.count);
+
+   const  error = useSelector((state: CounterState) => state.error);
 
 
     return (
         <div className={"counter"}>
             <h1>React counter(Using Reducer Components)</h1>
-            <h1>Count: {state.count}</h1>
-            {state.error && <span className="error">{state.error}</span> }
+            <h1>Count: {count}</h1>
+            {error && <span className="error">{error}</span> }
             <div>
-                <button className="button" onClick={()=> dispatch({type: 'increment'}) } >+</button>
-                <button className="button" onClick={() => dispatch({type: 'decrement'})} >-</button>
+                <button className="button" onClick={()=> dispatch(increment())} >+</button>
+                <button className="button" onClick={() => dispatch(decrement())} >-</button>
             </div>
             <Message />
         </div>

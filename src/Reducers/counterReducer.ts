@@ -2,6 +2,12 @@ export interface CounterState {
     count: number,
     error: string | null
 }
+//default state define
+
+const initialState: CounterState = {
+    count: 0,
+    error: null
+}
 
 //Define with the actionmanaged
 interface CounterAction {
@@ -9,7 +15,7 @@ interface CounterAction {
 
 }
 
- export function counterReducer(state: CounterState, action: CounterAction ) {
+ export function counterReducer(state = initialState, action: CounterAction ) {
     const {type} = action;
     switch (type) {
         case "increment":{
