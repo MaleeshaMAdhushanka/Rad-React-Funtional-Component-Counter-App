@@ -1,10 +1,10 @@
  import './counter.css';
  import {useEffect, useReducer, useState} from "react";
  import {Message} from "../Message/Message";
- import {counterReducer} from "../../Reducers/counterReducer";
+ // import {counterSlice, incrementAsync} from "../../slices/counterSlice";
  import {useDispatch, useSelector} from "react-redux";
- import {CounterState} from "../../store/store";
- import {decrement, increment} from "../../actions/counterAction";
+ import {AppDispatch, CounterState, RootState} from "../../store/store";
+ import {decrement, increment, incrementAsync} from "../../slices/counterSlice";
 
  //
  //state object define
@@ -37,7 +37,7 @@ export function Counter() {
    //
    //  }
    //  const [state, dispatch]  = useReducer(
-   //      counterReducer,  {
+   //      counterSlice,  {
    //          count: 0,
    //          error: null
    //      }
@@ -45,11 +45,12 @@ export function Counter() {
    //  );
 
 
-   const  dispatch = useDispatch();
+   const  dispatch = useDispatch<AppDispatch>();
 
-   const count = useSelector((state : CounterState) => state.count);
-
-   const  error = useSelector((state: CounterState) => state.error);
+   // const count = useSelector((state : CounterState) => state.count);
+   //
+   // const  error = useSelector((state: CounterState) => state.error);
+   const {count, error} = useSelector((state: RootState)=> state.counter)
 
 
     return (
@@ -58,10 +59,12 @@ export function Counter() {
             <h1>Count: {count}</h1>
             {error && <span className="error">{error}</span> }
             <div>
-                <button className="button" onClick={()=> dispatch(increment())} >+</button>
-                <button className="button" onClick={() => dispatch(decrement())} >-</button>
+                <button className="button" onClick={() => dispatch(increment())}>+</button>
+                <button className="button" onClick={() => dispatch(decrement())}>-</button>
+                <button className="button" onClick={() => dispatch(incrementAsync(1))}>Async Add  1</button>
+
             </div>
-            <Message />
+            <Message/>
         </div>
     );
 }
